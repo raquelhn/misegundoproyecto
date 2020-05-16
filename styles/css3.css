@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: center;
+    width: 100%;
+    max-width:960px;
+    
+}
+h2{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #009B9B; 
+    margin-bottom: 51px;
+    text-align: left;
+    padding-left: 12%;
+}
+
+h3{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+h4{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5500C1;
+    margin-bottom: 15px;
+
+}
+
+p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 11px;
+}
+
+
+/*Tarjetas*/
+
+.column {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*imagen circular*/
+
+.circulo{
+    background-image:url(../images/Ellipse.png);
+    position: absolute;
+    left: 42px;
+    top: 21px;
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+
+
+.card{
+    position: relative;
+    border: 1px solid #969696;
+    width: 231px;
+    height: 307px;
+    text-align: center;
+    background-color: transparent;
+    max-width:231px;
+    margin: 0px 10px;
+}
+
+/*iconos*/
+
+.iconox,
+.icono-casa,
+.icono-tlf{
+    position: absolute;
+}
+
+.icono-casa,
+.icono-tlf{
+    left: 25%;
+    color: ;
+}
+.iconox{   
+    top:-3%;
+    left:95% ;
+}
+
+
+.fa-window-close {
+    color: #FF4040;
+} 
+
+.fa-phone-alt,
+.fa-home{
+    color: #009B9B;
+}
+.container{
+    position: relative;
+    top:181px;
+}
